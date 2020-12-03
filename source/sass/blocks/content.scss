@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__cards {
+  width: 69%;
+}
+
+.content__stat {
+  width: 29%;
+}
+
+.content__cards-item {
+  width: 100%;
+  height: 445px;
+  background-color: aqua;
+  margin: 0 0 20px 0;
+}
+
+.content__stat-item {
+  width: 100%;
+  height: 112px;
+  background-color: aqua;
+  margin: 0 0 20px 0;
+}

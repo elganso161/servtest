@@ -1,0 +1,29 @@
+.burger {
+  width: 14px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  top: -10px;
+}
+
+.burger::before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: -8px;
+  z-index: 1;
+  width: 22px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.burger::after {
+  position: absolute;
+  content: '';
+  top: -10px;
+  left: -8px;
+  z-index: 1;
+  width: 22px;
+  height: 3px;
+  background-color: #fff;
+}

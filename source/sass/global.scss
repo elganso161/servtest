@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #0E0E0E;
+  min-width: 320px;
+  background-color: rgba(16, 28, 45, 1);
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+
+  /* margin-left: calc(100vw - 100%);
+  margin-right: 0; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.container {
+  max-width: 1255px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
