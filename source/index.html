@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>server</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- <link rel="preload" href="fonts/opensans.woff2" as="font" />
     <link rel="preload" href="fonts/opensansbold.woff2" as="font" />
     <link rel="preload" href="fonts/opensanslight.woff2" as="font" /> -->
@@ -15,20 +21,20 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <ul>
+          <ul class="nav__list-logo">
             <li><img src="http://placehold.it/200x46" alt="logo" /></li>
             <li>lang</li>
           </ul>
           <div class="wrapper">
-            <ul>
+            <ul class="nav__list-nav">
               <li><a href="#">Главная</a></li>
               <li><a href="#">Сервера ...</a></li>
               <li><a href="#">Файлы</a></li>
               <li><a href="#">Пожертвования</a></li>
               <li><a href="#">Форум</a></li>
             </ul>
-            <ul>
-              <li><a href="#">Личный кабинет</a></li>
+            <ul class="nav__list-cabinet">
+              <li><button class="cabinet-btn">Личный кабинет</button></li>
             </ul>
           </div>
           <div class="burger"></div>
@@ -57,10 +63,88 @@
             <div class="content__cards">
               <h3 class="content__cards-title">Новости проекта</h3>
               <ul class="content__cards-list">
-                <li class="content__cards-item">card 1</li>
-                <li class="content__cards-item">card 1</li>
-                <li class="content__cards-item">card 1</li>
-                <li class="content__cards-item">card 1</li>
+                <li class="content__cards-item">
+                  <div>
+                    <img
+                      class="content__cards-img"
+                      src="./img/news-img-1.png"
+                      alt="img"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <p>— Новости проекта</p>
+                      <p>04 Сентября</p>
+                    </div>
+                    <div>
+                      <h3>Открытие PvP x1200</h3>
+                      <p>
+                        Мы с радостью анонсируем открытие уникального PvP
+                        сервера Interlude x1200. Данный сервер включает в себя
+                        элементы классического сервера, а так-же небольшие
+                        изменения в сторону современной Lineage 2. Только у нас
+                        вы сможете по-настоящему комфортно провести свое
+                        свободное время, отдыхая и получаяудовольствие от
+                        хорошей игры одновременно.
+                      </p>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="content__cards-item">
+                  <div>
+                    <img
+                      class="content__cards-img"
+                      src="./img/news-img-2.png"
+                      alt="img"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <p>— Обновления</p>
+                      <p>01 Сентября</p>
+                    </div>
+                    <div>
+                      <h3>Новые и полезные изменения!</h3>
+                      <p>
+                        Небольшие гайды и видео по последним изменениям уже
+                        доступны на нашем форуме. Будьте всегда в курсе
+                        последних событий! Сегодня, во время рестарта, были
+                        установлены новые и полезные изменения! Представляем вам
+                        подробности.
+                      </p>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="content__cards-item">
+                  <div>
+                    <img
+                      class="content__cards-img"
+                      src="./img/news-img-3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <p>— Новости проекта</p>
+                      <p>04 Сентября</p>
+                    </div>
+                    <div>
+                      <h3>Открытие PvP x1200</h3>
+                      <p>
+                        Мы с радостью анонсируем открытие уникального PvP
+                        сервера Interlude x1200. Данный сервер включает в себя
+                        элементы классического сервера, а так-же небольшие
+                        изменения в сторону современной Lineage 2. Только у нас
+                        вы сможете по-настоящему комфортно провести свое
+                        свободное время, отдыхая и получаяудовольствие от
+                        хорошей игры одновременно.
+                      </p>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="content__stat">

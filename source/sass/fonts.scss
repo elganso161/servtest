@@ -22,3 +22,15 @@
 //   font-style: normal;
 //   font-display: swap;
 // }
+
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url('TTNorms-Bold.eot');
+  src: local('TT Norms Bold'), local('TTNorms-Bold'),
+    url('TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+    url('TTNorms-Bold.woff') format('woff'),
+    url('TTNorms-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
