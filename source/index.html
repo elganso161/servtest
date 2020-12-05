@@ -56,26 +56,51 @@
             <a href="#">Подробнее</a>
           </div>
         </div> -->
-  <div class="slider">
-    <div class="slider__wrapper">
-      <div class="slider__item">
-        <div class="slider__item-img" style="height: 455px; background-image: url(./img/slider-img-1.jpg);">
-        1
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__item">
+              <div
+                class="slider__item-img"
+                style="
+                  height: 455px;
+                  background-image: url(./img/slider-img-1.jpg);
+                "
+              >
+                1
+              </div>
+            </div>
+            <div class="slider__item">
+              <div
+                style="
+                  height: 455px;
+                  background-image: url(./img/slider-img-1.jpg);
+                "
+              >
+                2
+              </div>
+            </div>
+            <div class="slider__item">
+              <div
+                style="
+                  height: 455px;
+                  background-image: url(./img/slider-img-1.jpg);
+                "
+              >
+                3
+              </div>
+            </div>
+          </div>
+          <a
+            class="slider__control slider__control_left"
+            href="#"
+            role="button"
+          ></a>
+          <a
+            class="slider__control slider__control_right slider__control_show"
+            href="#"
+            role="button"
+          ></a>
         </div>
-      </div>
-      <div class="slider__item">
-        <div style="height: 455px; background-image: url(./img/slider-img-1.jpg);">
-          2</div>
-      </div>
-      <div class="slider__item">
-        <div style="height: 455px; background-image: url(./img/slider-img-1.jpg);">
-          3
-        </div>
-      </div>
-    </div>
-    <a class="slider__control slider__control_left" href="#" role="button"></a>
-    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
-  </div>
       </section>
       <section class="section-content">
         <div class="container">
@@ -166,6 +191,7 @@
                   </div>
                 </li>
               </ul>
+              <button class="content-btn">Показать еще +</button>
             </div>
             <div class="content__stat">
               <h3 class="content__stat-title">Статусы серверов</h3>
@@ -183,7 +209,9 @@
         </div>
       </section>
     </main>
-    <footer>footer</footer>
+    <footer class="footer">
+      <div class="container">footer</div>
+    </footer>
 
     <script src="./js/slider.js"></script>
   </body>

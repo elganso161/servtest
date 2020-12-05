@@ -1,3 +1,12 @@
+.section-content {
+  width: 100%;
+  background-image: url(../img/bg2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .content {
   display: flex;
   justify-content: space-between;
@@ -22,9 +31,11 @@
 }
 
 .content__stat-item {
-  width: 100%;
+  width: 380px;
   height: 112px;
-  background-color: aqua;
+  background: #101C2D;
+  border-radius: 16px;
+
   margin: 0 0 20px 0;
 
 }
