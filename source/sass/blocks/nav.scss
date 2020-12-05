@@ -1,15 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  // align-items: center;
   padding: 17px 0 17px 0;
-
-
-  // display: flex;
-  // position: fixed;
-  // width: 1440px;
-  // top: 0;
-  // left: 0;
 }
 
 .nav ul {
@@ -34,6 +26,8 @@
 
 .nav a {
   text-decoration: none;
+  font-family: 'TT Norms';
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #7BB5D2;
@@ -47,21 +41,6 @@
   display: none;
   color: #fff;
 }
-
-// .nav__list-cabinet button {
-//   width: 193px;
-//   height: 43px;
-//   padding: 0;
-//   border: none;
-//   color: #fff;
-//   background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
-//   border-radius: 33px;
-
-//   &:hover {
-//     background: linear-gradient(90deg, #04BEFE 0%, #4481EB 100%);
-
-//   }
-// }
 
 
 @media (max-width: 976px) {

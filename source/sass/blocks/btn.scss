@@ -7,8 +7,11 @@
   color: #fff;
   background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
   border-radius: 33px;
-
   cursor: pointer;
+
+  font-family: 'TT Norms';
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .cabinet-btn:before {
@@ -30,7 +33,6 @@
   border-radius: 33px;
   opacity: 0;
   transition: 0.2s;
-
 }
 
 .cabinet-btn:hover:before {
@@ -38,9 +40,7 @@
   box-shadow: 0px 0px 10px 0px #F0EFF4;
 }
 
-
 .content-btn {
-  // width: 745px;
   width: 80%;
   height: 38px;
   background-color: inherit;
@@ -51,7 +51,6 @@
 
   color: rgba(103, 117, 136, 1);
   cursor: pointer;
-
   display: block;
   margin: 0 auto;
 }
