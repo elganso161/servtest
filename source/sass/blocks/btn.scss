@@ -7,6 +7,8 @@
   color: #fff;
   background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
   border-radius: 33px;
+
+  cursor: pointer;
 }
 
 .cabinet-btn:before {
@@ -27,12 +29,13 @@
   background: linear-gradient(90deg, #04BEFE 0%, #4481EB 100%);
   border-radius: 33px;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.2s;
+
 }
 
 .cabinet-btn:hover:before {
   opacity: 1;
-  // box-shadow: 0px 0px 5px 0px #F0EFF4;
+  box-shadow: 0px 0px 10px 0px #F0EFF4;
 }
 
 
