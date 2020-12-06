@@ -31,6 +31,19 @@
   font-size: 16px;
   line-height: 19px;
   color: #7BB5D2;
+  filter: opacity(1);
+  transition: 0.2s;
+  &:hover {
+    filter: opacity(0.5);
+  }
+  &:active {
+    filter: opacity(0.3);
+  }
+}
+
+.link-active {
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid #7BB5D2;
 }
 
 .wrapper {
