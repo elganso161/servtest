@@ -40,6 +40,7 @@
   width: 29%;
 }
 
+
 .content__stat-title {
   font-family: 'TT Norms';
   font-weight: normal;
@@ -77,7 +78,6 @@
   border-radius: 16px;
 
   margin: 0 0 20px 0;
-
 }
 
 .content__cards-img {
@@ -94,7 +94,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 
 .content-title-first {
   display: block;
@@ -128,6 +127,18 @@
 
   padding: 0 0 0 25px;
   margin-bottom: 24px;
+  position: relative;
+}
+
+.content-title-second::before {
+  position: absolute;
+  content: "";
+  top: 1px;
+  left: 0;
+  background-image: url(../img/clock.svg);
+  background-size: cover;
+  width: 16px;
+  height: 16px;
 }
 
 .content__cards-left h5 {
@@ -137,7 +148,6 @@
   margin-bottom: 10px;
 }
 
-
 .content__cards-left p {
   font-family: 'TT Norms';
   font-size: 14px;
@@ -145,6 +155,7 @@
   line-height: 16px;
 
   margin-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .content__cards-left a {
@@ -162,4 +173,15 @@
 
   background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
   border-radius: 54px;
+
+  transition: 0.2s;
+  filter: opacity(1);
+
+  &:hover {
+    box-shadow: 0px 0px 10px 0px #F0EFF4;
+  }
+
+  &:active {
+    filter: opacity(0.5);
+  }
 }
