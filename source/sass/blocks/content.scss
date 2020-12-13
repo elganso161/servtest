@@ -36,30 +36,7 @@
   background-color: #EEEEEE;
 }
 
-.content__stat {
-  width: 29%;
-}
 
-
-.content__stat-title {
-  font-family: 'TT Norms';
-  font-weight: normal;
-  font-size: 24px;
-  margin-bottom: 30px;
-  padding: 0 0 0 64px;
-
-  position: relative;
-}
-
-.content__stat-title::before {
-  position: absolute;
-  content: '';
-  top: 15px;
-  left: 0;
-  width: 36px;
-  height: 1px;
-  background-color: #EEEEEE;
-}
 
 .content__cards-item {
   width: 100%;
@@ -69,15 +46,6 @@
   box-shadow: 0px 12px 44px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   display: flex;
-}
-
-.content__stat-item {
-  width: 100%;
-  height: 112px;
-  background: #101C2D;
-  border-radius: 16px;
-
-  margin: 0 0 20px 0;
 }
 
 .content__cards-img {
@@ -184,4 +152,159 @@
   &:active {
     filter: opacity(0.5);
   }
+}
+
+.content__stat {
+  width: 29%;
+}
+
+.content__stat-title {
+  font-family: 'TT Norms';
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding: 0 0 0 64px;
+
+  position: relative;
+}
+
+.content__stat-title::before {
+  position: absolute;
+  content: '';
+  top: 15px;
+  left: 0;
+  width: 36px;
+  height: 1px;
+  background-color: #EEEEEE;
+}
+
+.content__stat-item {
+  width: 100%;
+  height: 112px;
+  background: #101C2D;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+
+  margin: 0 0 20px 0;
+
+  list-style: none;
+}
+
+.content__stat-item-img {
+  width: 150px;
+  text-align: center;
+}
+
+
+.content__stat-item-title {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  color: rgba(79, 172, 254, 1);
+
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+
+.content__stat-item-text {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  color: #B5B5B5;
+  margin-bottom: 17px;
+}
+
+.content__stat-item-range {
+  width: 90%;
+  height: 12px;
+  background: #364862;
+  border-radius: 18px;
+}
+
+.range1 {
+  position: relative;
+}
+
+.range1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 12px;
+  background: linear-gradient(90deg, #4FACFE 29.16%, #00F2FE 100%);
+
+  box-shadow: 0px 4px 14px rgba(4, 190, 254, 0.35);
+  border-radius: 18px;
+}
+
+.range2 {
+  position: relative;
+}
+
+.range2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 12px;
+  background: linear-gradient(90deg, #4FACFE 29.16%, #00F2FE 100%);
+
+  box-shadow: 0px 4px 14px rgba(4, 190, 254, 0.35);
+  border-radius: 18px;
+}
+
+.range3 {
+  position: relative;
+}
+
+.range3::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: linear-gradient(90deg, #4FACFE 29.16%, #00F2FE 100%);
+
+  box-shadow: 0px 4px 14px rgba(4, 190, 254, 0.35);
+  border-radius: 18px;
+}
+
+.shares {
+  width: 100%;
+  min-height: 358px;
+  margin: 0 0 20px 0;
+  background: #101C2D;
+  box-shadow: 0px 12px 44px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.shares__item {
+  list-style: none;
+  position: relative;
+}
+
+.shares__item::before {
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: 10px;
+  background-image: url(../img/gift.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 53px;
+  height: 53px;
+}
+
+.shares p {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+  padding: 35px 0 10px 70px;
 }
