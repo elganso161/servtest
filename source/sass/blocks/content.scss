@@ -308,3 +308,50 @@
   color: #FFFFFF;
   padding: 35px 0 10px 70px;
 }
+
+.content__stat-list-messages {
+  width: 100%;
+  min-height: 358px;
+  margin: 0 0 20px 0;
+  background: #101C2D;
+  box-shadow: 0px 12px 44px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.content__stat-item-messages {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 26px 0 26px;
+}
+
+.content__stat-item-messages:last-child {
+  padding-bottom: 26px;
+}
+
+.content__stat-item-messages span {
+  color: blue;
+}
+
+.content__stat-item-messages a {
+  text-decoration: none;
+  color: #4E5D76;
+}
+
+.content__stat-link {
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/link.svg);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 1px solid #4E5D76;
+  border-radius: 50%;
+
+  margin-top: 7px;
+}
+
+.discord-link img{
+  width: 100%;
+}
