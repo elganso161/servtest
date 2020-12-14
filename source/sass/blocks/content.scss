@@ -10,6 +10,7 @@
 .content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
 
 .content__cards {
@@ -329,6 +330,17 @@
   padding-bottom: 26px;
 }
 
+.content__stat-item-messages p {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+
 .content__stat-item-messages span {
   color: blue;
 }
@@ -350,8 +362,12 @@
   border-radius: 50%;
 
   margin-top: 7px;
+  transition: 0.2s;
+  &:hover {
+    background-color: blue;
+  }
 }
 
-.discord-link img{
+.discord-link img {
   width: 100%;
 }
