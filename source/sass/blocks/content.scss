@@ -378,3 +378,17 @@
     box-shadow: 1px 1px 15px 0px #04befe;
   }
 }
+
+@media (max-width: 976px) {
+  .content {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content__cards {
+    width: 100%;
+  }
+  .content__stat {
+    width: 100%;
+  }
+}

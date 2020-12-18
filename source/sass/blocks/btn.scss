@@ -54,3 +54,11 @@
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 976px) {
+  .content-btn {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}

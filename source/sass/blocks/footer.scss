@@ -4,6 +4,10 @@
   background-color: #101C2D;
 }
 
+.footer__content {
+  display: flex;
+}
+
 .footer__nav {
   padding: 50px 0 0 0;
   display: flex;
@@ -191,6 +195,7 @@
 
 .footer__social-list {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .footer__social-list li {
@@ -276,5 +281,24 @@
 
   &:active {
     opacity: 0.2;
+  }
+}
+
+@media (max-width: 976px) {
+
+  .footer {
+    height: 550px;
+  }
+
+  .footer__content {
+    display: block;
+  }
+
+  .footer__nav {
+    display: block;
+  }
+
+  .footer__text {
+    width: 350px;
   }
 }
