@@ -363,11 +363,18 @@
 
   margin-top: 7px;
   transition: 0.2s;
+
   &:hover {
     background-color: blue;
   }
 }
 
 .discord-link img {
+  border-radius: 10px;
   width: 100%;
+  transition: 0.2s;
+
+  &:hover {
+    box-shadow: 1px 1px 15px 0px #04befe;
+  }
 }

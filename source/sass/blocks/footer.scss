@@ -74,3 +74,207 @@
   list-style: none;
   margin: 0 0 0 12px;
 }
+
+.footer__pay-visa {
+  display: block;
+  background-image: url(../img/visa.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__pay-master {
+  display: block;
+  background-image: url(../img/master.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__pay-webmoney {
+  display: block;
+  background-image: url(../img/webmoney.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__pay-qiwi {
+  display: block;
+  background-image: url(../img/qiwi.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__pay-pay {
+  display: block;
+  background-image: url(../img/pay.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__pay-paypal {
+  display: block;
+  background-image: url(../img/paypal.svg);
+  width: 80px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__social-list {
+  display: flex;
+}
+
+.footer__social-list li {
+  list-style: none;
+  margin: 0 0 0 12px;
+}
+
+.footer__social-list li:first-child {
+  margin: 0;
+}
+
+
+.footer__link-discord {
+  display: block;
+  background-image: url(../img/discord.svg);
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__link-vk {
+  display: block;
+  background-image: url(../img/vk.svg);
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__link-telegram {
+  display: block;
+  background-image: url(../img/telegram.svg);
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.footer__link-youtube {
+  display: block;
+  background-image: url(../img/youtube.svg);
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
