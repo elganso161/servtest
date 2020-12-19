@@ -23,11 +23,13 @@
 
 .footer__nav-list {
   display: flex;
+  width: 600px;
+  flex-wrap: wrap;
 }
 
 .footer__nav-list li {
   list-style: none;
-  margin: 0 0 0 20px;
+  margin: 0 20px 0 0;
 }
 
 .footer__nav-list a {
@@ -66,17 +68,13 @@
 
 .footer__pay-list {
   display: flex;
+  flex-wrap: wrap;
+  width: 600px;
 }
-
-.footer__pay-list li:first-child {
-  list-style: none;
-  margin: 0;
-}
-
 
 .footer__pay-list li {
   list-style: none;
-  margin: 0 0 0 12px;
+  margin: 0 12px 12px 0;
 }
 
 .footer__pay-visa {
@@ -287,7 +285,7 @@
 @media (max-width: 976px) {
 
   .footer {
-    height: 550px;
+    height: 650px;
   }
 
   .footer__content {
@@ -299,6 +297,25 @@
   }
 
   .footer__text {
-    width: 350px;
+    width: 300px;
+  }
+
+  .footer__nav-list li {
+    padding: 0 0 20px 0;
+  }
+
+  .footer__nav-list {
+    width: 300px;
+  }
+
+
+  .footer__pay-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .footer__logo-list {
+    margin-bottom: 20px;
   }
 }

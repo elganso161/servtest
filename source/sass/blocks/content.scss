@@ -49,17 +49,22 @@
   display: flex;
 }
 
+
 .content__cards-img {
   display: block;
   margin-left: -24px;
   margin-top: -16px;
+  width: 49%;
+  height: 493px;
 }
 
-.content__cards-left {
+
+.content__cards-rigth {
   padding: 20px 20px 20px 0;
+  width: 50%;
 }
 
-.content__cards-left-title {
+.content__cards-rigth-title {
   display: flex;
   justify-content: space-between;
 }
@@ -110,14 +115,14 @@
   height: 16px;
 }
 
-.content__cards-left h5 {
+.content__cards-rigth h5 {
   font-family: 'TT Norms';
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 10px;
 }
 
-.content__cards-left p {
+.content__cards-rigth p {
   font-family: 'TT Norms';
   font-size: 14px;
   font-weight: 400;
@@ -127,7 +132,7 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.content__cards-left a {
+.content__cards-rigth a {
   text-decoration: none;
   display: block;
   width: 201px;
@@ -388,7 +393,12 @@
   .content__cards {
     width: 100%;
   }
+
   .content__stat {
     width: 100%;
+  }
+
+  .discord-link img {
+    margin-bottom: 130px;
   }
 }
