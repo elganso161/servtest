@@ -2,12 +2,16 @@
 let burger = document.querySelector(".burger");
 let active = document.querySelector(".active");
 let wrapper = document.querySelector(".wrapper");
+let b1 = document.querySelector('.b1')
+let b2 = document.querySelector('.b2')
+let b3 = document.querySelector('.b3')
+
 
 burger.addEventListener("click", f1);
+
 function f1() {
-  if (wrapper.classList.contains('active')) {
-    wrapper.classList.remove("active");
-  } else {
-    wrapper.classList.add("active");
-  }
+  wrapper.classList.toggle("active");
+  b1.classList.toggle('active')
+  b2.classList.toggle('active')
+  b3.classList.toggle('active')
 }
