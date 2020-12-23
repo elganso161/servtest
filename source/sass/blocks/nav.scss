@@ -61,10 +61,13 @@
   .nav ul {
     display: block;
     text-align: center;
+  }
+
+  .nav__list-nav {
     margin-top: 50px;
   }
 
-  .nav li {
+  .nav__list-nav li {
     display: block;
     text-align: center;
     margin-bottom: 20px;
