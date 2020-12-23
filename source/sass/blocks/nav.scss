@@ -61,6 +61,18 @@
   .nav ul {
     display: block;
     text-align: center;
+    margin-top: 50px;
+  }
+
+  .nav li {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .nav a {
+    text-transform: uppercase;
+    border-bottom: none;
   }
 
   .wrapper {
