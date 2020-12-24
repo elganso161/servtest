@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>server</title>
     <link rel="stylesheet" href="css/style.min.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -36,64 +43,59 @@
     </header>
     <main>
       <section class="section-slider">
-        <div class="slider">
-          <div class="slider__wrapper">
-            <div class="slider__item">
-              <div class="slider__item-img slide1">
-                <div class="container">
-                  <h3>
-                    Открытие нового сервера <span>Interlude x1200</span> — 8-го
-                    Декабря
-                  </h3>
-                  <p>
-                    Обновлённый клиент игры, уникальная экономика, новейшие
-                    авто-эвенты — это и многое другое ждёт вас на SERVERNAME !
-                  </p>
-                  <a href="#">Подробнее</a>
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="./img/slider-img-1.jpg" alt="img" />
+              </div>
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">26 December 2019</span>
+                <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                <div class="blog-slider__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Recusandae voluptate repellendus magni illo ea animi?
                 </div>
+                <a href="#" class="blog-slider__button">READ MORE</a>
               </div>
             </div>
-            <div class="slider__item">
-              <div class="slider__item-img slide2">
-                <div class="container">
-                  <h3>
-                    Открытие нового сервера <span>Interlude x1200</span> — 8-го
-                    Декабря
-                  </h3>
-                  <p>
-                    Обновлённый клиент игры, уникальная экономика, новейшие
-                    авто-эвенты — это и многое другое ждёт вас на SERVERNAME !
-                  </p>
-                  <a href="#">Подробнее</a>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="./img/slider-img-1.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">26 December 2019</span>
+                <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+                <div class="blog-slider__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Recusandae voluptate repellendus magni illo ea animi?
                 </div>
+                <a href="#" class="blog-slider__button">READ MORE</a>
               </div>
             </div>
-            <div class="slider__item">
-              <div class="slider__item-img slide3">
-                <div class="container">
-                  <h3>
-                    Открытие нового сервера <span>Interlude x1200</span> — 8-го
-                    Декабря
-                  </h3>
-                  <p>
-                    Обновлённый клиент игры, уникальная экономика, новейшие
-                    авто-эвенты — это и многое другое ждёт вас на SERVERNAME !
-                  </p>
-                  <a href="#">Подробнее</a>
+
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="./img/slider-img-1.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">26 December 2019</span>
+                <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                <div class="blog-slider__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Recusandae voluptate repellendus magni illo ea animi?
                 </div>
+                <a href="#" class="blog-slider__button">READ MORE</a>
               </div>
             </div>
           </div>
-          <a
-            class="slider__control slider__control_left"
-            href="#"
-            role="button"
-          ></a
-          ><a
-            class="slider__control slider__control_right slider__control_show"
-            href="#"
-            role="button"
-          ></a>
+          <div class="blog-slider__pagination"></div>
         </div>
       </section>
       <section class="section-content">
@@ -102,12 +104,12 @@
             <div class="content__cards">
               <h3 class="content__cards-title">Новости проекта</h3>
               <ul class="content__cards-list">
-                <li class="content__cards-item ">
-                    <img
-                      class="content__cards-img"
-                      src="./img/news-img-1.png"
-                      alt="img"
-                    />
+                <li class="content__cards-item">
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-1.png"
+                    alt="img"
+                  />
                   <div class="content__cards-rigth">
                     <div class="content__cards-rigth-title">
                       <h4 class="content-title-first">— Новости проекта</h4>
@@ -137,11 +139,11 @@
                   </div>
                 </li>
                 <li class="content__cards-item">
-                    <img
-                      class="content__cards-img"
-                      src="./img/news-img-2.png"
-                      alt="img"
-                    />
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-2.png"
+                    alt="img"
+                  />
                   <div class="content__cards-rigth">
                     <div class="content__cards-rigth-title">
                       <h4 class="content-title-first">— Обновления</h4>
@@ -167,11 +169,11 @@
                   </div>
                 </li>
                 <li class="content__cards-item">
-                    <img
-                      class="content__cards-img"
-                      src="./img/news-img-3.png"
-                      alt="img"
-                    />
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-3.png"
+                    alt="img"
+                  />
                   <div class="content__cards-rigth">
                     <div class="content__cards-rigth-title">
                       <h4 class="content-title-first">— Новости проекта</h4>
@@ -382,7 +384,7 @@
             </ul>
           </div>
 
-          <div style="padding-top: 50px;">
+          <div style="padding-top: 50px">
             <ul class="footer__social-list">
               <li>
                 <a class="footer__link-discord" href="#" target="blank"></a>
@@ -395,7 +397,7 @@
                 <a class="footer__link-youtube" href="#" target="blank"></a>
               </li>
             </ul>
-            <div style="margin-bottom: 40px;">
+            <div style="margin-bottom: 40px">
               <a href="#"> <img src="http://placehold.it/88x31" alt="" /></a>
               <a href="#"> <img src="http://placehold.it/88x31" alt="" /></a>
             </div>
@@ -404,6 +406,36 @@
         </div>
       </div>
     </footer>
+    <section class="modal" style="display: none;">
+      <div class="container">
+        <div class="modal__dowload">
+          <div class="modal__dowload-header">
+            <div class="modal__dowload-header-left">
+              <h5 class="modal__download-title">Скачать клиент</h5>
+              <p class="modal__download-subtitle">
+                Чистый клиент Lineage 2 Interlude (4,6ГБ) с торрента
+              </p>
+            </div>
+            <div class="modal__dowload-header-right">
+              <a class="modal__dowload-link" href="№">Скачать с сайта</a>
+              <a class="modal__dowload-link-mirror" href="№"
+                >Скачать с зеркала</a
+              >
+            </div>
+          </div>
+          <div>
+            <a href="#">Скачать патч с сайта</a>
+            <a href="#">Скачать патч зеркало 1</a>
+            <a href="#">Скачать патч зеркало 2</a>
+          </div>
+          <div>
+            <a href="#">Зарегистрировать аккаунт</a>
+            <a href="#">Техническая поддержка</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="./js/burger.js"></script>
     <script src="./js/slider.js"></script>
   </body>
