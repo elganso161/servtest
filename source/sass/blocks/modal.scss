@@ -12,8 +12,17 @@
   left: 50%;
   transform: translate(-50%);
 
-  display: none;
+  // display: none;
+  opacity: 0;
+  transition: 0.6s;
+  top: -1000px;
 }
+
+.active-modal-dowload {
+  opacity: 1;
+  top: 130px;
+}
+
 
 .modal__dowload-header {
   width: 100%;
@@ -29,7 +38,21 @@
   justify-content: space-between;
 
   margin-bottom: 27px;
+  // position: relative;
 }
+
+// .modal__dowload-header::before {
+//   position: absolute;
+//   content: "";
+//   top: 13px;
+//   left: 720px;
+//   z-index: 1;
+//   width: 11px;
+//   height: 11px;
+//   background-image: url(../img/cross.svg);
+//   background-size: cover;
+//   cursor: pointer;
+// }
 
 .modal__dowload-header-left {
   padding: 44px 0 0 28px;
@@ -218,4 +241,17 @@
 
 .modal__dowloads-footer span {
   color: rgba(103, 117, 136, 1);
+}
+
+.cross-modal-downloads {
+  position: absolute;
+  top: 13px;
+  left: 720px;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
 }
