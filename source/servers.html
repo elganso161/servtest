@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>server</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list-logo">
+            <li><img src="./img/logo.png" alt="logo" /></li>
+            <li>lang</li>
+          </ul>
+          <div class="wrapper">
+            <ul class="nav__list-nav">
+              <li><a href="./index.html">Главная</a></li>
+              <li>
+                <a class="link-active" href="./servers.html">Сервера</a>
+              </li>
+              <li><a class="files" href="#">Файлы</a></li>
+              <li><a href="#">Пожертвования</a></li>
+              <li><a href="#">Форум</a></li>
+            </ul>
+            <ul class="nav__list-cabinet">
+              <li><button class="cabinet-btn">Личный кабинет</button></li>
+            </ul>
+          </div>
+          <div class="burger">
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Servers</h1>
+    </div>
+
+
+
+
+    <!-- Модальное окно -->
+    <section class="modal">
+      <div class="container">
+        <div class="modal__dowload">
+          <div class="modal__dowload-header">
+            <div class="modal__dowload-header-left">
+              <h5 class="modal__download-title">Скачать клиент</h5>
+              <p class="modal__download-subtitle">
+                Чистый клиент Lineage 2 Interlude (4,6ГБ) с торрента
+              </p>
+
+              <img
+                class="cross-modal-downloads"
+                src="./img/cross.svg"
+                alt="крестик"
+              />
+            </div>
+            <div class="modal__dowload-header-right">
+              <a class="modal__dowload-link" href="#">Скачать с сайта</a>
+              <a class="modal__dowload-link-mirror" href="#"
+                >Скачать с зеркала</a
+              >
+            </div>
+          </div>
+          <div class="modal__dowloads-main">
+            <div class="modal__dowloads-main-list">
+              <a href="#"
+                >Скачать патч с сайта <span class="sp1">113 Mb</span></a
+              >
+              <a href="#"
+                >Скачать патч зеркало 1 <span class="sp2">113 Mb</span></a
+              >
+              <a href="#"
+                >Скачать патч зеркало 2 <span class="sp3">113 Mb</span></a
+              >
+            </div>
+
+            <div class="modal__dowloads-footer">
+              <a href="#">Зарегистрировать аккаунт</a>
+              <a href="#"> <span>Техническая поддержка</span> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/burger.js"></script>
+  </body>
+</html>

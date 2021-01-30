@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: #0E0E0E;
+  color: #0e0e0e;
   min-width: 320px;
   background-color: rgba(10, 20, 33, 1);
   // font-family: 'TT Norms';
@@ -40,9 +40,12 @@ li {
   padding: 0;
 }
 
-
 .container {
   max-width: 1255px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+
+// .modal-active {
+//   position: fixed;
+// }
