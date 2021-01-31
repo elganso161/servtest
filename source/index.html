@@ -22,7 +22,11 @@
           </ul>
           <div class="wrapper">
             <ul class="nav__list-nav">
-              <li><a class="link-active nav__list-link" href="./index.html">Главная</a></li>
+              <li>
+                <a class="link-active nav__list-link" href="./index.html"
+                  >Главная</a
+                >
+              </li>
               <li class="server-item">
                 <a class="nav__list-link" href="#">Сервера</a>
                 <ul class="nav__list-subnav">
@@ -43,7 +47,9 @@
                 </ul>
               </li>
               <li><a class="files nav__list-link" href="#">Файлы</a></li>
-              <li><a class="nav__list-link" href="./donat.html">Пожертвования</a></li>
+              <li>
+                <a class="nav__list-link" href="./donat.html">Пожертвования</a>
+              </li>
               <li><a class="nav__list-link" href="#">Форум</a></li>
             </ul>
             <ul class="nav__list-cabinet">
@@ -214,7 +220,110 @@
                   </div>
                 </li>
               </ul>
-              <button class="content-btn">Показать еще +</button>
+
+              <!-- вторая часть -->
+              <ul class="content__cards-list additional-content">
+                <li class="content__cards-item">
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-1.png"
+                    alt="img"
+                  />
+                  <div class="content__cards-rigth">
+                    <div class="content__cards-rigth-title">
+                      <h4 class="content-title-first">— Новости проекта</h4>
+                      <h4 class="content-title-second">04 Сентября</h4>
+                    </div>
+                    <div>
+                      <h5>Открытие PvP x1200</h5>
+                      <div style="height: 270px; overflow: overlay">
+                        <p>
+                          Мы с радостью анонсируем открытие уникального PvP
+                          сервера Interlude x1200. Данный сервер включает в себя
+                          элементы классического сервера, а так-же небольшие
+                          изменения в сторону современной Lineage 2. Только у
+                          нас вы сможете по-настоящему комфортно провести свое
+                          свободное время, отдыхая и получаяудовольствие от
+                          хорошей игры одновременно.
+                        </p>
+                        <p>
+                          Мы с радостью анонсируем открытие уникального PvP
+                          сервера Interlude x1200. Данный сервер включает в себя
+                          элементы классического сервера, а так-же небольшие
+                          изменения в сторону современной Lineage 2.
+                        </p>
+                      </div>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="content__cards-item">
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-2.png"
+                    alt="img"
+                  />
+                  <div class="content__cards-rigth">
+                    <div class="content__cards-rigth-title">
+                      <h4 class="content-title-first">— Обновления</h4>
+                      <h4 class="content-title-second">01 Сентября</h4>
+                    </div>
+                    <div>
+                      <h5>Новые и полезные изменения!</h5>
+                      <div style="height: 270px; overflow: overlay">
+                        <p>
+                          Небольшие гайды и видео по последним изменениям уже
+                          доступны на нашем форуме. Будьте всегда в курсе
+                          последних событий! Сегодня, во время рестарта, были
+                          установлены новые и полезные изменения! Представляем
+                          вам подробности.
+                        </p>
+                        <p>
+                          Небольшие гайды и видео по последним изменениям уже
+                          доступны на нашем форуме.
+                        </p>
+                      </div>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="content__cards-item">
+                  <img
+                    class="content__cards-img"
+                    src="./img/news-img-3.png"
+                    alt="img"
+                  />
+                  <div class="content__cards-rigth">
+                    <div class="content__cards-rigth-title">
+                      <h4 class="content-title-first">— Новости проекта</h4>
+                      <h4 class="content-title-second">04 Сентября</h4>
+                    </div>
+                    <div>
+                      <h5>Открытие PvP x1200</h5>
+                      <div style="height: 270px; overflow: overlay">
+                        <p>
+                          Мы с радостью анонсируем открытие уникального PvP
+                          сервера Interlude x1200. Данный сервер включает в себя
+                          элементы классического сервера, а так-же небольшие
+                          изменения в сторону современной Lineage 2. Только у
+                          нас вы сможете по-настоящему комфортно провести свое
+                          свободное время, отдыхая и получаяудовольствие от
+                          хорошей игры одновременно.
+                        </p>
+                        <p>
+                          Мы с радостью анонсируем открытие уникального PvP
+                          сервера Interlude x1200. Данный сервер включает в себя
+                          элементы классического сервера, а так-же небольшие
+                          изменения в сторону современной Lineage 2.
+                        </p>
+                      </div>
+                      <a href="#">Читать подробнее</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <!-- конец второй части -->
+              <button class="content-btn">Показать еще</button>
             </div>
             <div class="content__stat">
               <h3 class="content__stat-title">Статусы серверов</h3>
@@ -421,9 +530,9 @@
     <!-- Модальное окно -->
     <section class="modal">
       <div class="container">
-        <div class="modal__dowload">
-          <div class="modal__dowload-header">
-            <div class="modal__dowload-header-left">
+        <div class="modal__download">
+          <div class="modal__download-header">
+            <div class="modal__download-header-left">
               <h5 class="modal__download-title">Скачать клиент</h5>
               <p class="modal__download-subtitle">
                 Чистый клиент Lineage 2 Interlude (4,6ГБ) с торрента
@@ -435,15 +544,15 @@
                 alt="крестик"
               />
             </div>
-            <div class="modal__dowload-header-right">
-              <a class="modal__dowload-link" href="#">Скачать с сайта</a>
-              <a class="modal__dowload-link-mirror" href="#"
+            <div class="modal__download-header-right">
+              <a class="modal__download-link" href="#">Скачать с сайта</a>
+              <a class="modal__download-link-mirror" href="#"
                 >Скачать с зеркала</a
               >
             </div>
           </div>
-          <div class="modal__dowloads-main">
-            <div class="modal__dowloads-main-list">
+          <div class="modal__downloads-main">
+            <div class="modal__downloads-main-list">
               <a href="#"
                 >Скачать патч с сайта <span class="sp1">113 Mb</span></a
               >
@@ -455,7 +564,7 @@
               >
             </div>
 
-            <div class="modal__dowloads-footer">
+            <div class="modal__downloads-footer">
               <a href="#">Зарегистрировать аккаунт</a>
               <a href="#"> <span>Техническая поддержка</span> </a>
             </div>
@@ -467,5 +576,6 @@
     <script src="./js/burger.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/content.js"></script>
   </body>
 </html>
