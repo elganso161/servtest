@@ -19,17 +19,32 @@
         <nav class="nav">
           <ul class="nav__list-logo">
             <li><img src="./img/logo.png" alt="logo" /></li>
-            <li>lang</li>
           </ul>
           <div class="wrapper">
             <ul class="nav__list-nav">
-              <li><a class="link-active" href="./index.html">Главная</a></li>
-              <li>
-                <a href="./servers.html">Сервера</a>
+              <li><a class="link-active nav__list-link" href="./index.html">Главная</a></li>
+              <li class="server-item">
+                <a class="nav__list-link" href="#">Сервера</a>
+                <ul class="nav__list-subnav">
+                  <li class="subnav-item">
+                    <a class="subnav-link" href="#">PVP x1200</a>
+                    <p class="subnav-text">Описание</p>
+                    <div class="subnav-line"></div>
+                  </li>
+                  <li class="subnav-item">
+                    <a class="subnav-link" href="#">Low-Rate x100</a>
+                    <p class="subnav-text">Описание</p>
+                    <div class="subnav-line"></div>
+                  </li>
+                  <li class="subnav-item">
+                    <a class="subnav-link" href="#">Craft x3</a>
+                    <p class="subnav-text">Описание</p>
+                  </li>
+                </ul>
               </li>
-              <li><a class="files" href="#">Файлы</a></li>
-              <li><a href="#">Пожертвования</a></li>
-              <li><a href="#">Форум</a></li>
+              <li><a class="files nav__list-link" href="#">Файлы</a></li>
+              <li><a class="nav__list-link" href="./donat.html">Пожертвования</a></li>
+              <li><a class="nav__list-link" href="#">Форум</a></li>
             </ul>
             <ul class="nav__list-cabinet">
               <li><button class="cabinet-btn">Личный кабинет</button></li>
