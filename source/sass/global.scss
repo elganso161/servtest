@@ -11,10 +11,10 @@ body {
 
 html {
   box-sizing: border-box;
-  overflow-y: scroll;
+  // overflow-y: scroll;
 
-  /* margin-left: calc(100vw - 100%);
-  margin-right: 0; */
+//  margin-left: calc(100vw - 100%);
+//   margin-right: 0;
 }
 
 *,
@@ -47,6 +47,7 @@ li {
 }
 
 
+//helper
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -55,5 +56,9 @@ li {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.body-active {
   overflow: hidden;
 }
