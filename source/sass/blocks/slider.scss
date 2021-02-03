@@ -7,12 +7,12 @@
 }
 
 .blog-slider {
-  width: 95%;
+  width: 85%;
   position: relative;
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
-  background: #fff;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  // background: #fff;
+  // box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
   padding: 25px;
   border-radius: 25px;
   height: 400px;
@@ -150,22 +150,32 @@
   }
 
   &__title {
-    font-size: 24px;
-    font-weight: 700;
-    color: #0d0925;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
     margin-bottom: 20px;
+    max-width: 550px;
   }
 
   &__text {
-    color: #4e4a67;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #dddddd;
     margin-bottom: 30px;
     line-height: 1.5em;
+    max-width: 550px;
   }
 
   &__button {
     display: inline-flex;
     // background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-    background: linear-gradient(90deg, #4481eb 0, #04befe 100%);
+    background: #04befe;
     padding: 15px 35px;
     border-radius: 50px;
     color: #fff;
@@ -175,6 +185,10 @@
     justify-content: center;
     text-align: center;
     letter-spacing: 1px;
+    transition: 0.2s;
+    &:hover {
+      box-shadow: 0px 0px 14px rgba(4, 190, 254, 0.75);
+    }
 
     @media screen and (max-width: 576px) {
       width: 100%;
@@ -223,15 +237,20 @@
       height: 11px;
       display: block;
       border-radius: 10px;
-      background: #062744;
+      // background: #062744;
+      background: #04befe;
+      /* slier */
+
       opacity: 0.2;
       transition: all 0.3s;
 
       &-active {
         opacity: 1;
-        background: #062744;
+        // background: #062744;
+        background: #04befe;
         height: 30px;
         // box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+        box-shadow: 0px 0px 14px rgba(4, 190, 254, 0.75);
 
         @media screen and (max-width: 768px) {
           height: 11px;
