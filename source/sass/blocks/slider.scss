@@ -63,10 +63,18 @@
 }
 
 .blog-slider__button {
+  font-family: "TT Norms";
+  font-size: 18px;
+  line-height: 21px;
+  width: 204px;
   display: inline-flex;
-  background: #04befe;
+  background: linear-gradient(90deg, #4481eb 0%, #04befe 100%);
+  /* button effect */
+
+  box-shadow: 0px 5px 54px rgba(4, 190, 254, 0.3);
+  border-radius: 33px;
   padding: 15px 35px;
-  border-radius: 50px;
+  // border-radius: 50px;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -74,8 +82,12 @@
   text-align: center;
   letter-spacing: 1px;
   transition: 0.2s;
+  opacity: 1;
   &:hover {
     box-shadow: 0px 0px 14px rgba(4, 190, 254, 0.75);
+  }
+  &:active {
+    opacity: 0.5;
   }
 }
 
@@ -84,9 +96,18 @@
   .swiper-pagination-bullet {
   background: #04befe;
   box-shadow: 0px 0px 14px rgba(4, 190, 254, 0.75);
-  width: 100px;
-  height: 2px;
-  border-radius: 0;
+  width: 80px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  top: 400px;
 }
 
 .slide-block {
@@ -99,11 +120,23 @@
 }
 
 @media (max-width: 976px) {
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    top: auto;
+  }
   .blog-slider__img {
     display: none;
   }
 
   .slide-block {
     width: 100%;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-button-next {
+    display: none;
   }
 }

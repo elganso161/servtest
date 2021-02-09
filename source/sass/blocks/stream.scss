@@ -13,7 +13,7 @@
   max-width: 1255px;
   margin-left: 50%;
   transform: translate(-50%);
-  top: 0;
+  top: -118px;
   left: 0;
   z-index: 1;
 }
@@ -55,4 +55,10 @@
   font-size: 14px;
 
   color: #ffffff;
+}
+
+@media(max-width:976px) {
+  .stream {
+    display: none;
+  }
 }
