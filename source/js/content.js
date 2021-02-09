@@ -1,3 +1,5 @@
+"use strict";
+
 let contentBtn = document.querySelector(".content-btn");
 let additionalСontent = document.querySelector(".additional-content");
 

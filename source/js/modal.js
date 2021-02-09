@@ -1,3 +1,5 @@
+"use strict";
+
 let cross = document.querySelector(".cross-modal-downloads");
 let modalDownload = document.querySelector(".modal__download");
 let files = document.querySelector(".files");

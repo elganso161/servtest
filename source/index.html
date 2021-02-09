@@ -67,16 +67,98 @@
     <main>
       <section class="section-slider">
         <h2 class="visually-hidden">Слайдер</h2>
-        <div class="blog-slider">
+
+        <div class="swiper-container">
+          <div
+            class="parallax-bg"
+            style="background-image: url(./img/bg-slider.jpg)"
+            data-swiper-parallax="-23%"
+          ></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="title" data-swiper-parallax="-300">Slide 1</div>
+                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam dictum mattis velit, sit amet faucibus felis iaculis
+                    nec. Nulla laoreet justo vitae porttitor porttitor.
+                    Suspendisse in sem justo. Integer laoreet magna nec elit
+                    suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                    at elit facilisis rutrum. Ut at ullamcorper velit. Nulla
+                    ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                    Aenean feugiat non eros quis feugiat.
+                  </p>
+
+                <a href="#" class="ttt">Подробнее</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+                <div
+                  class="title"
+                  data-swiper-parallax="-300"
+                  data-swiper-parallax-opacity="0"
+                >
+                  Slide 2
+                </div>
+
+                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam dictum mattis velit, sit amet faucibus felis iaculis
+                    nec. Nulla laoreet justo vitae porttitor porttitor.
+                    Suspendisse in sem justo. Integer laoreet magna nec elit
+                    suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                    at elit facilisis rutrum. Ut at ullamcorper velit. Nulla
+                    ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                    Aenean feugiat non eros quis feugiat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam dictum mattis velit, sit amet faucibus felis iaculis
+                    nec. Nulla laoreet justo vitae porttitor porttitor.
+                    Suspendisse in sem justo. Integer laoreet magna nec elit
+                    suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                    at elit facilisis rutrum. Ut at ullamcorper velit. Nulla
+                    ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero.
+                    Aenean feugiat non eros quis feugiat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+
+        <!-- <div class="blog-slider">
           <div class="blog-slider__wrp swiper-wrapper">
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img src="./img/slider-img-1.jpg" alt="img" />
               </div>
               <div class="blog-slider__content">
-                <!-- <span class="blog-slider__code">26 December 2019</span> -->
+
                 <div class="blog-slider__title">
-                  Открытие нового сервера Interlude x1200 — 8-го Декабря
+                  Открытие нового сервера <span>Interlude x1200</span> — 8-го
+                  Декабря
                 </div>
                 <div class="blog-slider__text">
                   Обновлённый клиент игры, уникальная экономика, новейшие
@@ -91,9 +173,10 @@
                 <img src="./img/slider-img-1.jpg" alt="img" />
               </div>
               <div class="blog-slider__content">
-                <!-- <span class="blog-slider__code">26 December 2019</span> -->
+
                 <div class="blog-slider__title">
-                  Открытие нового сервера Interlude x1200 — 8-го Декабря
+                  Открытие нового сервера <span>Interlude x1200</span> — 8-го
+                  Декабря
                 </div>
                 <div class="blog-slider__text">
                   Обновлённый клиент игры, уникальная экономика, новейшие
@@ -108,9 +191,10 @@
                 <img src="./img/slider-img-1.jpg" alt="img" />
               </div>
               <div class="blog-slider__content">
-                <!-- <span class="blog-slider__code">26 December 2019</span> -->
+
                 <div class="blog-slider__title">
-                  Открытие нового сервера Interlude x1200 — 8-го Декабря
+                  Открытие нового сервера <span>Interlude x1200</span> — 8-го
+                  Декабря
                 </div>
                 <div class="blog-slider__text">
                   Обновлённый клиент игры, уникальная экономика, новейшие
@@ -121,7 +205,7 @@
             </div>
           </div>
           <div class="blog-slider__pagination"></div>
-        </div>
+        </div> -->
       </section>
       <section class="stream" style="margin: 0 0 70px 0">
         <h2 class="visually-hidden">Добавить стрим</h2>
