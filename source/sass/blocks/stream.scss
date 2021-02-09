@@ -1,9 +1,18 @@
+.stream {
+  position: relative;
+  width: 100%;
+}
+
 .stream__list {
   display: flex;
   justify-content: space-between;
-  row-gap: 30px;
-  // column-gap:30px;
+  // row-gap: 30px;
+  column-gap:30px;
   position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .stream__list-item {
