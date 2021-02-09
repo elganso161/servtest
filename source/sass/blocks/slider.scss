@@ -271,6 +271,7 @@
 
 .swiper-container {
   width: 100%;
+  min-height: 500px;
   height: auto;
   background: #000;
 }
@@ -309,7 +310,7 @@
   line-height: 1.3;
 }
 
-.ttt {
+.blog-slider__button {
   display: inline-flex;
   background: #04befe;
   padding: 15px 35px;
