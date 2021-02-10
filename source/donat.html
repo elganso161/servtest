@@ -12,6 +12,10 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
   </head>
   <body>
     <header class="header">
@@ -19,14 +23,51 @@
         <nav class="nav">
           <ul class="nav__list-logo">
             <li><img src="./img/logo.png" alt="logo" /></li>
+            <li>
+              <div class="navigation__lang lang notranslate">
+                <div class="lang__link lang__link_select" data-lang-active>
+                  <img
+                    class="lang__img lang__img_select"
+                    src="./img/translate.svg"
+                    alt=""
+                  />
+                  <div class="lang__arrow"></div>
+                </div>
+                <div class="lang__list" data-lang-list>
+                  <a
+                    href="javascript:void(0)"
+                    data-google-lang="ru"
+                    class="lang__link lang__link_sub lang__link_translate"
+                  >
+                    <img class="lang__img" src="img/lang__ru.png" alt="Ru" />
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    data-google-lang="en"
+                    class="lang__link lang__link_sub lang__link_translate"
+                  >
+                    <img class="lang__img" src="img/lang__en.png" alt="En" />
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    data-google-lang="zh-CN"
+                    class="lang__link lang__link_sub lang__link_translate"
+                  >
+                    <img class="lang__img" src="img/lang__ch.png" alt="Zh" />
+                  </a>
+                </div>
+              </div>
+            </li>
           </ul>
           <div class="wrapper">
             <ul class="nav__list-nav">
-              <li><a class="nav__list-link" href="./index.html">Главная</a></li>
+              <li>
+                <a class="nav__list-link" href="./index.html">Главная</a>
+              </li>
               <li class="server-item">
                 <a class="nav__list-link" href="#">Сервера</a>
                 <ul class="nav__list-subnav">
-                  <li class="subnav-item">
+                  <li class="subnav-item subnav-item-new">
                     <a class="subnav-link" href="#">PVP x1200</a>
                     <p class="subnav-text">Описание</p>
                     <div class="subnav-line"></div>
@@ -114,5 +155,6 @@
 
     <script src="./js/modal.js"></script>
     <script src="./js/burger.js"></script>
+    <script src="./js/google-translate.js"></script>
   </body>
 </html>
