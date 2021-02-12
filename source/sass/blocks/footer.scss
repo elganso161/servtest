@@ -6,6 +6,7 @@
 
 .footer__content {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .footer__nav {
@@ -287,12 +288,11 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   color: #677588;
   position: relative;
-
   transition: 0.2s;
   &:hover {
+    text-shadow: 0px 0px 23px rgba(4, 190, 254, 1);
     color: #04befe;
   }
 }
@@ -325,9 +325,58 @@
   }
 }
 
+.up {
+  text-decoration: none;
+  display: block;
+
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8096b5;
+  width: 55px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+
+  &:hover {
+    text-shadow: 0px 0px 23px rgba(4, 190, 254, 1);
+    color: #04befe;
+  }
+}
+
+.up:before {
+  position: absolute;
+  content: "";
+  top: -3px;
+  left: 65px;
+  z-index: 1;
+  background-image: url(../img/arrow-up.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 15px;
+
+  animation-name: up;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes up {
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 30%);
+  }
+}
+
 @media (max-width: 976px) {
   .footer {
-    height: 650px;
+    height: 720px;
   }
 
   .footer__content {
